@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+.bg-login{
+    height: 500px;
+    width: 750px;
+    margin-top: 100px;
+}
+.ant-form {
+    margin-top: 30px;
+}
+.login-infor{
+    margin-top: 150px;
+}
+.title-brand{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    margin-right: 110px;
+   
+}
+.logo{
+    padding: 10px;
+    
+}
+.ant-input,.ant-input-password{
+   
+    border: none;
+    border-bottom: 1px solid #eee1e1;
+    
+}
+.ant-input{
+    width:300px ;
+}
+.ant-input-password{
+    width: 300px;
+}
+.ant-input-affix-wrapper{
+    border: none;
+    width: 300px;
+    border-bottom: 1px solid #e2d3d3;
+}
+.repassword{
+    position: relative;
+    top: -58px;
+    left: 200px;
+    color: #999;
+}
+.submit-login{
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    top: -40px;
+    font-family: 'Secular One', sans-serif;
+}
+.ant-btn > .anticon + span, .ant-btn > span + .anticon {
+    margin-left: 8px;
+    padding-right: 20px;
+}
+.register{
+    color: #999;
+    position: relative;
+    top: -40px;
+    left: 40px;
+    width: 110%;
+}
+.signup{
+    color: red;
+    font-family: 'Secular One', sans-serif;
+}
+.happy{
+    position: relative;
+    top: -80px;
+    left: 40px;
+    font-family: 'Secular One', sans-serif;
+    color: black;
+}
+.anticon-right{
+    position: relative;
+    left: 60px;
+    top: -2px;
+}

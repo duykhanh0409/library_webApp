@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.menu-item{
+    padding-left: 50px;
+}
+.show_deskop{
+    height: inherit;
+}
+@media (max-width: 992px) {
+    .show_deskop {
+      display: none;
+    }
+    .menu_mobile{
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+    }
+  }
+@media (min-width:992px){
+    .menu_mobile{
+        display: none;
+    }
+}  
+
+.ant-menu  .ant-menu-item{
+    padding-left: 54px !important;
+    font-family: 'Secular One', sans-serif;
+  }
+
+.ant-menu-item .anticon {
+    padding-right: 20px !important;
+}

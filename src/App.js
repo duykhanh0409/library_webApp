@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Layout } from "antd";
+import React from "react";
+//component
+import Routers from "./router";
+import Login from './Views/login/login';
+import Menus from "./Views/Sider/Menu";
+import { useLocation } from "react-router-dom";
+const { Content } = Layout;
 
-function App() {
+const App = () => {
+  let location = useLocation();
+  console.log(location.pathname);
+  let check =
+    location.pathname === "/login" ? (
+      <>
+        <Login />
+      </>
+    ) : (
+      <>
+        <Layout>
+          <>
+            <Menus />
+          </>
+          <Layout>
+            <Layout style={{ padding: " 24px 24px" }}>
+              <Content>
+                <Routers />
+              </Content>
+            </Layout>
+          </Layout>
+        </Layout>
+      </>
+    );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {check}
+    </>
   );
-}
-
+};
 export default App;

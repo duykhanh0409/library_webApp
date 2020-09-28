@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+.newbook{
+    position: relative;
+    left: 50%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.custom_table{
+    box-shadow: 2px #791a1f;
+}
+.navbar {
+    background-color: white;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  @media (min-width: 992px) {
+    .menu {
+      display: none;
+    }
+  }
+  .logo {
+    height: 32px;
+    margin-left: 1rem;
+  }
+  .site-layout-background{
+      background: white;
+  }
+  .title{
+    font-family: 'Secular One', sans-serif;
+    color:blue;
+    font-size: 18px;
+  }
+  .content-row{
+    font-family: 'Secular One', sans-serif;
+    color: #999;
+  }
+  /* row data */
+.ant-table-tbody > tr > td {
+  height: 5px;
+  padding: 4px;
+}
+/* row tags */
+.my-tag {
+  font-size: 12px;
+}
+.ant-table-thead > tr > th {
+  height: 3px;
+}
+.ant-table-cell .content-row{
+  padding-top: 10px;
+}
+.ant-btn-primary{
+  font-size: 10px;
+}
+
+
+@media only screen and (max-width: 600px){
+  .ant-table-tbody > tr > td {
+    height: 3px;
+    padding: 2px;
+  }
+  /* row tags */
+  .my-tag {
+    font-size: 10px;
+  }
+  .ant-table-thead > tr > th {
+    height: 3px;
+    padding: 0px;
+  }
+  .ant-table-cell .title{
+    font-family: 'Secular One', sans-serif;
+    color:blue;
+    font-size: 10px;
+  }
+  .ant-table-cell p{
+    font-size: 8px;
+  }
+  .ant-btn-primary{
+    font-size: 4px;
+  }
+}
+{/*top */}
+.ant-input{
+width: 250px !important;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.ant-input-search-button{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon-edit svg,.icon-delete svg{
+  margin-bottom: 7px;
+  height: 17px;
+  width: 17px;
+}
